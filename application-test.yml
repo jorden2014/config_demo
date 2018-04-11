@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: demo
+server:
+  port: 8082
+eureka:
+  client:
+    serviceUrl:
+     defaultZone: http://111.230.244.114:8081/eureka/
